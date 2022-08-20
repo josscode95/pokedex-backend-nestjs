@@ -11,3 +11,8 @@ export interface Pokemon {
   name:string;
   url:string;
 }
+
+export interface ArrayPokemonSeed {
+  name:string;
+  no:number;
+}

@@ -35,6 +35,18 @@ npm run start:dev
 http://localhost:3000/api/v2/seed
 ```
 
+# Notas 
+Heroku redeploy sin cambios:
+```
+git commit --allow-empty -m "Trigger heroku deploy"
+git push heroku main
+```
+
+Proyecto subido en:
+```
+https://nest-pokedex-jpm.herokuapp.com/pokemon
+```
+
 ## Stack usado
 * MongoDB
 * Nest
